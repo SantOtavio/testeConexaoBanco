@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 public class TesteSelect {
     public static void main(String[] args) throws SQLException {
-        int id = 8;
+        int id = 2;
         String sql = "select * from contatos where id =" + id;
 
         Conexao conexao = new Conexao();
